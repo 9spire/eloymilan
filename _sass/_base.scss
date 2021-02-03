@@ -18,6 +18,10 @@ hr.light {
     border-color: white;
 }
 
+hr.dark {
+    border-color: $theme-dark;
+}
+
 a {
     @include transition-all;
     color: $theme-primary;
@@ -284,6 +288,10 @@ header {
     }
 }
 
+.contact {
+    background: $theme-primary;
+}
+
 // Bootstrap Overrides
 .text-primary {
     color: $theme-primary;
@@ -319,6 +327,9 @@ header {
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
+    &:hover {
+        color: white;
+    }
 }
 
 // Extras

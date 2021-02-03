@@ -1,12 +1,12 @@
 # Site settings
 title: Eloy Milan
-email: example@example.com
+email: eloymilan81@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+facebook_username: profile.php?id=100008312792846
+instagram_handle: eloymilan
 
 # Build settings
 markdown: kramdown
